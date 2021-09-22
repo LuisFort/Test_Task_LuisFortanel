@@ -1,4 +1,4 @@
-#python UnitTest.py --latitude 55.883555 --longitude 37.723633
+#python UnitTest.py --latitude 55.774558 --longitude 37.842762
 import argparse
 from app.distance.Controller import calculateDistance as cd
 

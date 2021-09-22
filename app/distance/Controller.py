@@ -32,7 +32,7 @@ def calculateDistance(latPoint, longPoint):
 		#It is checked if the coordinates are not in the given list,  if they are, an error 400 is returned.
 		for coordinates in mkad_km :
 			if coordinates[1] == longPoint and coordinates[2] == latPoint :
-				return {"msg": "Invalid Lat or Long value"}, 400
+				return {"msg": "Address is located inside the MKAD"}, 400
 
 		#The distance between the coordinates is obtained in miles and they are converted into km.
 		miles = round(geodesic((latMRR, longMRR), (latPoint, longPoint)).miles, 2)
