@@ -35,3 +35,4 @@ You can use the file UnitTest.py to test the calculationDistance function using 
 	python UnitTest.py --latitude 55.883555 --longitude 37.723633
 
 
+**** You must send the latitude and longitude as floats, otherwise the code will give you an error ****
