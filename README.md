@@ -28,6 +28,7 @@ To test the service you can use the browser (I suggest postman to make it look b
 Change the latitude and longitude values to test more coordinates.
 
 
+-------------------------
 
 You can use the file UnitTest.py to test the calculationDistance function using the following command:
 
